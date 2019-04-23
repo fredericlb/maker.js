@@ -342,7 +342,9 @@ namespace MakerJs.exporter {
                 "30",
                 0,
                 "70",
-                polyline.shape ? 1 : 0
+                polyline.shape ? 1 : 0,
+                "66",
+                1
             );
 
             polyline.vertices.forEach(vertex => map["VERTEX"](vertex));
